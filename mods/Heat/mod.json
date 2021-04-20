@@ -1,0 +1,19 @@
+{
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"description": "Adds one fire spell - Scorching Heat. Works oppositely to the Prayer spell",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType": "Spells",
+	"name": "Scorching Heat spell",
+	"version": "1.0",
+	"spells": [
+		"config/heat.json"
+
+	],
+	"changelog": {
+
+		"1.0": [ "Initial release" ]
+	}
+
+}

@@ -1,0 +1,70 @@
+{
+  "cesare": {
+    "army": [
+
+      {
+        "creature": "skeleton",
+        "max": 30,
+        "min": 20
+      },
+      {
+        "creature": "skeleton",
+        "max": 30,
+        "min": 20
+      },
+      {
+        "creature": "wight",
+        "max": 1,
+        "min": 1
+      }
+
+
+    ],
+
+    "class": "necromancer",
+    "female": false,
+    "special": false,
+    "spellbook": [ "hypnotize" ],
+
+
+    "texts": {
+      "name": "Cesare",
+      "biography": "When Cesare was a child, he has fallen a victim of a hypnotist named Caligari. After 28 years of killing his master`s enemies, Cesare suddenly regained his free will. Now, he knows everything about hypnosis and feels ready to use it, in order to take his revange.",
+      "specialty": {
+        "description": "{Hypnotize}\r\nCasts Hypnotize with increased effect, based on hero level compared to the level of the target unit.",
+        "name": "Hypnotize",
+        "tooltip": "Casts Hypnotize with increased effect, based on hero level compared to the level of the target unit."
+      }
+    },
+
+    "images": {
+      "large": "Cesare-b.png",
+      "small": "Cesare-s.png",
+      "specialtyLarge": "slarge.png",
+      "specialtySmall": "ssmall.png"
+    },
+
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "necromancy"
+      },
+      {
+        "level": "basic",
+        "skill": "resistance"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "hypnotize": {
+          "subtype": "spell.hypnotize",
+          "type": "SPECIAL_SPELL_LEV",
+          "updater": "TIMES_HERO_LEVEL",
+          "val": 3
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"author": "Rybiej, portrait: Conrad Veidt",
+	"contact": "paladyn.franek@gmail.com",
+	"description": "Adds one necropolis hero - Cesare(Hypnotize), a character from a 1920 film The Cabinet of Dr. Caligari",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType": "Heroes",
+	"name": "Cesare the Somnambulist",
+	"version": "1.0",
+	"heroes": [
+		"config/Cesare.json"
+
+	],
+	"changelog": {
+
+		"1.0": [ "Initial release" ]
+	}
+
+}

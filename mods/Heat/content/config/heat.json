@@ -1,0 +1,175 @@
+{
+	"heat": {
+		"type": "combat",
+		"name": "Scorching Heat",
+		"school": {
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"level": 4,
+		"power": 10,
+		"defaultGainChance": 4,
+		"gainChance": {
+			"inferno": 8,
+			"rampart": 6,
+			"conflux": 4,
+			"dungeon": 4
+		},
+		"animation": {
+			"affect": [
+				{
+					"defName": "C10SPW",
+					"verticalPosition": "bottom"
+				}
+			]
+		},
+		"flags": {
+			"negative": true,
+			"special": false
+		},
+		"targetCondition": {
+			"noneOf": {
+				"core:creature.fireElemental": "absolute",
+				"core:creature.energyElemental": "absolute",
+				"core:creature.firebird": "absolute",
+				"core:creature.phoenix": "absolute",
+				"core:creature.efreet": "absolute",
+				"core:creature.nomad": "absolute",
+				"core:creature.efreetSultan": "absolute",
+				"bonus.SIEGE_WEAPON": "absolute",
+				"bonus.UNDEAD": "absolute",
+				"bonus.NON_LIVING": "absolute"
+
+			}
+
+		},
+		"sounds": {
+			"cast": "FROSTING"
+		},
+		"graphics": {
+			"iconBook": "iconbook.png",
+			"iconScroll": "iconscroll.png",
+			"iconScenarioBonus": "iconbonus.png",
+			"iconEffect": "iconeffect.png"
+		},
+
+		"levels": {
+			"base": {
+				"power": 10,
+				"aiValue": 20,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				}
+			},
+			"none": {
+				"description": "{Scorching Heat}\n\nDecreases attack, defence and speed of a targeted enemy unit.\n",
+
+				"cost": 16,
+
+				"effects": {
+					"attack": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primSkill.attack",
+						"val": -2,
+						"duration": "N_TURNS"
+					},
+					"defence": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primSkill.defence",
+						"val": -2,
+						"duration": "N_TURNS"
+					},
+					"stacksSpeed": {
+						"addInfo": 0,
+						"type": "STACKS_SPEED",
+						"val": -2,
+						"duration": "N_TURNS"
+					}
+				}
+			},
+			"basic": {
+				"description": "{Basic Scorching Heat}\n\nDecreases attack, defence and speed of a targeted enemy unit.\n",
+
+				"cost": 16,
+
+				"effects": {
+					"attack": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primSkill.attack",
+						"val": -2,
+						"duration": "N_TURNS"
+					},
+					"defence": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primSkill.defence",
+						"val": -2,
+						"duration": "N_TURNS"
+					},
+					"stacksSpeed": {
+						"addInfo": 0,
+						"type": "STACKS_SPEED",
+						"val": -2,
+						"duration": "N_TURNS"
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Advanced Scorching Heat}\n\nDecreases attack, defence and speed of a targeted enemy unit.\n",
+
+				"cost": 12,
+
+				"effects": {
+					"attack": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primSkill.attack",
+						"val": -4,
+						"duration": "N_TURNS"
+					},
+					"defence": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primSkill.defence",
+						"val": -4,
+						"duration": "N_TURNS"
+					},
+					"stacksSpeed": {
+						"addInfo": 0,
+						"type": "STACKS_SPEED",
+						"val": -4,
+						"duration": "N_TURNS"
+					}
+				}
+			},
+			"expert": {
+				"description": "{Expert Scorching Heat}\n\nDecreases attack, defence and speed of all enemy unit.\n",
+
+				"cost": 12,
+
+				"effects": {
+					"attack": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primSkill.attack",
+						"val": -4,
+						"duration": "N_TURNS"
+					},
+					"defence": {
+						"type": "PRIMARY_SKILL",
+						"subtype": "primSkill.defence",
+						"val": -4,
+						"duration": "N_TURNS"
+					},
+					"stacksSpeed": {
+						"addInfo": 0,
+						"type": "STACKS_SPEED",
+						"val": -4,
+						"duration": "N_TURNS"
+					}
+				}
+			}
+		}
+	}
+
+}
