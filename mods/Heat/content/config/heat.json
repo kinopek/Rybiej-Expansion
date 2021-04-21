@@ -16,7 +16,9 @@
 			"inferno": 8,
 			"rampart": 6,
 			"conflux": 4,
-			"dungeon": 4
+			"dungeon": 4,
+			"tower": 2,
+			"castle": 3
 		},
 		"animation": {
 			"affect": [
@@ -36,9 +38,23 @@
 				"core:creature.energyElemental": "absolute",
 				"core:creature.firebird": "absolute",
 				"core:creature.phoenix": "absolute",
-				"core:creature.efreet": "absolute",
+
 				"core:creature.nomad": "absolute",
+
+				"core:creature.imp": "absolute",
+				"core:creature.familiar": "absolute",
+				"core:creature.gog": "absolute",
+				"core:creature.magog": "absolute",
+				"core:creature.demon": "absolute",
+				"core:creature.hornedDemon": "absolute",
+				"core:creature.pitFiend": "absolute",
+				"core:creature.pitLord": "absolute",
+				"core:creature.efreet": "absolute",
 				"core:creature.efreetSultan": "absolute",
+				"core:creature.devil": "absolute",
+				"core:creature.archDevil": "absolute",
+
+
 				"bonus.SIEGE_WEAPON": "absolute",
 				"bonus.UNDEAD": "absolute",
 				"bonus.NON_LIVING": "absolute"
@@ -144,10 +160,10 @@
 				}
 			},
 			"expert": {
-				"description": "{Expert Scorching Heat}\n\nDecreases attack, defence and speed of all enemy unit.\n",
+				"description": "{Expert Scorching Heat}\n\nDecreases attack, defence and speed of all enemy units.\n",
 
 				"cost": 12,
-
+				"range": "X",
 				"effects": {
 					"attack": {
 						"type": "PRIMARY_SKILL",

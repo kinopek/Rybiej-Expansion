@@ -1,0 +1,67 @@
+{
+  "nahran" :
+  {
+    "class" : "wizard",
+    "female" : false,
+    "special" : false,
+	"spellbook": ["heat"],
+    "texts": {
+      "name": "Nahran",
+      "biography": "Although coming from the nomad nobility, Nahran was never interested in ruling his tribe. Instead, he carefully studied magic of his people under the supervision of the nomad elders. After learning everything they had to offer, Nahran has departured to expand his knowledge even more.",
+
+      "specialty": {
+        "description": "{Scorching Heat}\r\n\r\nCasts Scorching Heat with increased effect, based on the level of the target unit (the bonus is stronger when used on stronger units).",
+        "tooltip": "Spell bonus: Scorching Heat",
+        "name": "Scorching Heat"
+      }
+    },
+
+    "images": {
+      "specialtySmall": "specSmall",
+      "specialtyLarge": "spec",
+      "large": "Nahran",
+      "small": "NahranSmall"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "gremlin",
+        "max" : 40,
+        "min" : 30
+      },
+      {
+        "creature" : "nomad",
+        "max" : 5,
+        "min" : 4
+      },
+      {
+        "creature": "stoneGargoyle",
+        "max": 7,
+        "min": 5
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "wisdom"
+      },
+	  {
+        "level" : "basic",
+        "skill" : "fireMagic"
+      }
+    ],
+      
+    "specialty": {
+      "bonuses": {
+        "heat": {
+          "addInfo": 0,
+          "subtype": "spell.heat",
+          "type": "SPECIAL_PECULIAR_ENCHANT"
+        }
+      }
+    }
+  }
+}

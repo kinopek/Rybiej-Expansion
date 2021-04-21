@@ -7,13 +7,11 @@
 	"modType": "Spells",
 	"name": "Scorching Heat spell",
 	"version": "1.0",
+
+
 	"spells": [
 		"config/heat.json"
 
-	],
-	"changelog": {
-
-		"1.0": [ "Initial release" ]
-	}
+	]
 
 }
