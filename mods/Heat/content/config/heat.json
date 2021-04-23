@@ -28,6 +28,13 @@
 				}
 			]
 		},
+
+		"counters": {
+			"spell.haste": true,
+			//"spell.frostRing": true,
+			//"spell.iceBolt": true
+		},
+
 		"flags": {
 			"negative": true,
 			"special": false
@@ -102,7 +109,9 @@
 					"stacksSpeed": {
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
-						"val": -2,
+						//						"valueType": "ADDITIVE_VALUE",
+						//"valueType": "BASE_NUMBER",
+						"val": 0,
 						"duration": "N_TURNS"
 					}
 				}
@@ -118,6 +127,7 @@
 						"subtype": "primSkill.attack",
 						"val": -2,
 						"duration": "N_TURNS"
+
 					},
 					"defence": {
 						"type": "PRIMARY_SKILL",
@@ -129,7 +139,9 @@
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
 						"val": -2,
-						"duration": "N_TURNS"
+						"duration": "N_TURNS",
+						//"valueType": "BASE_NUMBER"
+						//				"valueType": "ADDITIVE_VALUE"
 					}
 				}
 			},
@@ -155,7 +167,9 @@
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
 						"val": -4,
-						"duration": "N_TURNS"
+						"duration": "N_TURNS",
+						//"valueType": "BASE_NUMBER"
+						//					"valueType": "ADDITIVE_VALUE"
 					}
 				}
 			},
@@ -181,6 +195,8 @@
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
 						"val": -4,
+						//			"valueType": "ADDITIVE_VALUE",
+						//"valueType": "BASE_NUMBER",
 						"duration": "N_TURNS"
 					}
 				}

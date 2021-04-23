@@ -11,7 +11,7 @@
 
 	"spells": [
 		"config/heat.json"
-
+		"config/heatCounteredBy.json"
 	]
 
 }

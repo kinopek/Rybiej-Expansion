@@ -1,6 +1,6 @@
 {
-	"name" : "hero Nahran",
-	"description" : "A mod that adds a new tower hero Nahran (Scorching Heat speciality)",
+	"name" : "Nahraim the Heat Wizard",
+	"description" : "A mod that adds a new tower hero Nahraim (Scorching Heat speciality)",
 	"author" : "Rybiej",
 	"contact" : "paladyn.franek@gmail.com",
 	"version" : "1.0",
@@ -10,7 +10,7 @@
 	],
 	"heroes" :
 	[
-		"Nahran.json"		
+		"Nahraim.json"		
 	]
 
 }

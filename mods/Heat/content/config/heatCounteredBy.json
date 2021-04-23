@@ -1,0 +1,17 @@
+{
+	"core:frostRing": {
+		"counters": {
+			"rybiej expansion.heat:spell.heat": true
+		}
+	},
+	"core:haste": {
+		"counters": {
+			"rybiej expansion.heat:spell.heat": true
+		}
+	},
+	"core:iceBolt": {
+		"counters": {
+			"rybiej expansion.heat:spell.heat": true
+		}
+	}
+}
