@@ -89,7 +89,7 @@
 				}
 			},
 			"none": {
-				"description": "{Scorching Heat}\n\nDecreases attack, defence and speed of a targeted enemy unit.\n",
+				"description": "{Scorching Heat}\n\nDecreases attack and defence by 2; and speed by 25% of a targeted enemy unit.\n",
 
 				"cost": 16,
 
@@ -117,9 +117,9 @@
 				}
 			},
 			"basic": {
-				"description": "{Basic Scorching Heat}\n\nDecreases attack, defence and speed of a targeted enemy unit.\n",
+				"description": "{Basic Scorching Heat}\n\nDecreases attack and defence by 2; and speed by 25% of a targeted enemy unit. The cost is reduced by 2.\n",
 
-				"cost": 16,
+				"cost": 14,
 
 				"effects": {
 					"attack": {
@@ -136,17 +136,20 @@
 						"duration": "N_TURNS"
 					},
 					"stacksSpeed": {
+						//"addInfo": 0,
+						//"type": "STACKS_SPEED",
+						//"val": -2,
+						//"duration": "N_TURNS",
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
-						"val": -2,
-						"duration": "N_TURNS",
-						//"valueType": "BASE_NUMBER"
-						//				"valueType": "ADDITIVE_VALUE"
+						"val": -25,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
 					}
 				}
 			},
 			"advanced": {
-				"description": "{Advanced Scorching Heat}\n\nDecreases attack, defence and speed of a targeted enemy unit.\n",
+				"description": "{Advanced Scorching Heat}\n\nDecreases attack and defence by 4; and speed by 50% of a targeted enemy unit. The cost is reduced by 4.\n",
 
 				"cost": 12,
 
@@ -166,15 +169,16 @@
 					"stacksSpeed": {
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
-						"val": -4,
-						"duration": "N_TURNS",
-						//"valueType": "BASE_NUMBER"
-						//					"valueType": "ADDITIVE_VALUE"
+						"valueType": "PERCENT_TO_ALL",
+
+						"val": -50,
+						"duration": "N_TURNS"
+
 					}
 				}
 			},
 			"expert": {
-				"description": "{Expert Scorching Heat}\n\nDecreases attack, defence and speed of all enemy units.\n",
+				"description": "{Expert Scorching Heat}\n\nDecreases attack and defence by 4; and speed by 50% of all enemy units. The cost is reduced by 4.\n",
 
 				"cost": 12,
 				"range": "X",
@@ -193,11 +197,10 @@
 					},
 					"stacksSpeed": {
 						"addInfo": 0,
+						"duration": "N_TURNS",
 						"type": "STACKS_SPEED",
-						"val": -4,
-						//			"valueType": "ADDITIVE_VALUE",
-						//"valueType": "BASE_NUMBER",
-						"duration": "N_TURNS"
+						"val": -50,
+						"valueType": "PERCENT_TO_ALL"
 					}
 				}
 			}

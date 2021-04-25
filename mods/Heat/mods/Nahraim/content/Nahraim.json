@@ -10,7 +10,7 @@
       "biography": "Although coming from the nomad nobility, Nahraim was never interested in ruling his tribe. Instead, he carefully studied magic of his people under the supervision of the nomad elders. After learning everything they had to offer, Nahraim has departured to expand his knowledge even more.",
 
       "specialty": {
-        "description": "{Scorching Heat}\r\n\r\nCasts Scorching Heat with increased effect, based on the level of the target unit (the bonus is stronger when used on weaker units).",
+        "description": "{Scorching Heat}\r\n\r\n Scorching Heat has an increased effect on the attack and defense, based on the level of the target unit (the bonus is stronger when used on weaker units).",
         "tooltip": "Spell bonus: Scorching Heat",
         "name": "Scorching Heat"
       }
@@ -58,17 +58,19 @@
       "bonuses": {
         "heat": {
           "subtype": "spell.heat",
-           "type": "SPECIAL_PECULIAR_ENCHANT",
-           "addInfo": 0
-        //  						"valueType" : "PERCENT_TO_ALL",
+          "type": "SPECIAL_PECULIAR_ENCHANT",
+          "addInfo": 0
+        },
+        //"duration": {
+        //   "type": "SPELL_DURATION",
+        //  "subtype": "spell.heat",
+        //  "addInfo": 1
 
         // }
-
-
-
-
-
-     // }
-    }
-  }
+      //  "damage": {
+     //     "type": "SPECIFIC_SPELL_DAMAGE",
+     //     "subtype": "spell.heat",
+      //    "addInfo": 100
+      //  }
+      }
 }
