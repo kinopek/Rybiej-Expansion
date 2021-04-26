@@ -1,0 +1,74 @@
+{
+  "Qulhaad": {
+    "army": [
+
+      {
+        "creature": "skeleton",
+        "max": 30,
+        "min": 20
+      },
+      {
+        "creature": "mummy",
+        "max": 6,
+        "min": 4
+      },
+      {
+        "creature": "mummy",
+        "max": 6,
+        "min": 4
+      }
+
+
+    ],
+
+    "class": "necromancer",
+    "female": false,
+    "special": false,
+    "spellbook": [ "curse" ],
+
+
+    "texts": {
+      "name": "Qulhaad",
+      "biography": "Both feared and respected Qulhaad studied the ancient art of mummification, which gave him the unique opportunity of improving his armies power.",
+      "specialty": {
+        "description": "{Mummification}\r\nCan Upgrade skeletons, skeleton warriors, walking dead and zombies into mummies.",
+        "name": "Mummification",
+        "tooltip": "Can Upgrade skeletons, skeleton warriors, walking dead and zombies into mummies."
+      }
+    },
+
+    "images": {
+      "large": "Qulhaad-b.png",
+      "small": "Qulhaad-s.png",
+      "specialtyLarge": "slarge.png",
+      "specialtySmall": "ssmall.png"
+    },
+
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "necromancy"
+      },
+      {
+        "level": "basic",
+        "skill": "fireMagic"
+      }
+    ],
+
+    "specialty": {
+      "base": {
+        "type": "SPECIAL_UPGRADE"
+          "addInfo": "creature.mummy"
+      },
+        "bonuses": {
+            "skeleton2Mummy": { "subtype": "creature.skeleton" },
+            "skeletonWarrior2Mummy": { "subtype": "creature.skeletonWarrior" },
+            "walkingDead2Mummy": { "subtype": "creature.walkingDead" },
+          "zombieLord2Mummy": { "subtype": "creature.zombieLord" }
+          } 
+
+        }
+      }
+    }
+}
