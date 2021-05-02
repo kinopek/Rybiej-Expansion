@@ -1,0 +1,28 @@
+{
+  "NecklaceofAzureScale": {
+    "bonuses": [
+      {
+        "type": "FEAR",
+
+      },
+      {
+        "type": "FEARLESS"
+      }
+
+    ],
+
+    "class": "RELIC",
+    "graphics": {
+      "image": "NecklaceofAzureScale",
+      "map": "NecklaceofAzureScale"
+    },
+    "slot": "NECK",
+    "text": {
+      "description": "{Necklace of Azure Scale}\r\n\r\nThis necklace induces fear in the enemy army and makes every friendly fearless.",
+      "event": "",
+      "name": "Necklace of Azure Scale"
+    },
+    "type": [ "HERO" ],
+    "value": 2000
+  }
+}

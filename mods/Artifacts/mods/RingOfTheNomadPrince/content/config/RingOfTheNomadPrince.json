@@ -1,0 +1,34 @@
+{
+  "RingOfTheNomadPrince": {
+    "bonuses": [
+
+      {
+        "subtype": "primSkill.attack",
+        "type": "PRIMARY_SKILL",
+        "val": 1,
+        "valueType": "BASE_NUMBER"
+      },
+      {
+        "subtype": "primSkill.spellpower",
+        "type": "PRIMARY_SKILL",
+        "val": 1,
+        "valueType": "BASE_NUMBER"
+      }
+
+    ],
+
+    "class": "TREASURE",
+    "graphics": {
+      "image": "RingOfTheNomadPrince",
+      "map": "RingOfTheNomadPrince"
+    },
+    "slot": "RIGHT_RING",
+    "text": {
+      "description": "{Ring of the Nomad Prince}\r\n\r\nThis ring increases your Attack and Power skill by +1.",
+      "event": "",
+      "name": "Ring of the Nomad Prince"
+    },
+    "type": [ "HERO" ],
+    "value": 2000
+  }
+}

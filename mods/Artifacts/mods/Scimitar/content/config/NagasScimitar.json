@@ -1,0 +1,34 @@
+{
+  "NagasScimitar": {
+    "bonuses": [
+     
+      {
+        "subtype": "primSkill.attack",
+        "type": "PRIMARY_SKILL",
+        "val": 2,
+        "valueType": "BASE_NUMBER"
+      },
+      {
+        "subtype": "primSkill.defence",
+        "type": "PRIMARY_SKILL",
+        "val": 2,
+        "valueType": "BASE_NUMBER"
+      }
+
+    ],
+    
+    "class": "MINOR",
+    "graphics": {
+      "image": "NagasScimitar",
+      "map": "NagasScimitar"
+    },
+    "slot": "RIGHT_HAND",
+    "text": {
+      "description": "{Naga`s Scimitar}\r\n\r\nThis right-handed weapon increases your Attack and Defence skill by +2.",
+      "event": "You notice a shining item on a nearby dune. After getting closer, you recognise it as a Naga`s Scimitar. Much time has left since the previous owner has left it here, but the blade is not touched by the rust.",
+      "name": "Naga`s Scimitar"
+    },
+    "type": [ "HERO" ],
+    "value": 4000
+  }
+}
