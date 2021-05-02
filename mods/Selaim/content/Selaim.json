@@ -1,0 +1,80 @@
+{
+  "Selaim": {
+    "class": "knight",
+    "female": false,
+    "special": false,
+
+    "texts": {
+      "name": "Selaim",
+      "biography": "Selaim has been involved in numerous secret raids, which made him proficient in guerilla warfare. But he is more known for his arrogant boasting.",
+
+      "specialty": {
+        "description": "{Retaliation}\r\n\r\nEvery unit in this army retaliates one time more than normally.",
+        "tooltip": "Passive bonus: One additional retaliation",
+        "name": "Retaliation"
+      }
+    },
+
+    "images": {
+      "specialtySmall": "specSmall",
+      "specialtyLarge": "spec",
+      "large": "Selaim",
+      "small": "SelaimSmall"
+    },
+
+    "army": [
+      {
+        "creature": "gremlin",
+        "max": 40,
+        "min": 30
+      },
+      {
+        "creature": "nomad",
+        "max": 5,
+        "min": 4
+      },
+      {
+        "creature": "stoneGargoyle",
+        "max": 7,
+        "min": 5
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "offence"
+      },
+      {
+        "level": "basic",
+        "skill": "tactics"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "retaliation": {
+          "type": "ADDITIONAL_RETALIATION",
+          "val": 1
+        }
+
+
+
+
+
+        /*
+        "counterstrike": {
+          "subtype": "spell.counterstrike",
+          "type": "SPECIAL_PECULIAR_ENCHANT",
+          "addInfo": 0
+        }*/
+
+
+
+
+      }
+
+
+    }
+  }
+}

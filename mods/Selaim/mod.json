@@ -1,0 +1,12 @@
+{
+	"name": "Selaim the guerilla knight",
+	"description": "A mod that adds a new castle hero Selaim (additional retaliation)",
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"version": "1.0",
+	"modType": "Heroes",
+	"heroes": [
+		"Selaim.json"
+	]
+
+}

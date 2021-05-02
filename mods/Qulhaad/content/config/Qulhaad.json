@@ -29,7 +29,7 @@
 
     "texts": {
       "name": "Qulhaad",
-      "biography": "Both feared and respected Qulhaad studied the ancient art of mummification, which gave him the unique opportunity of improving his armies power.",
+      "biography": "Qulhaad studied the ancient art of mummification, which made him both feared and respected. Knowledge of this process also gave him the unique opportunity of improving his armies power.",
       "specialty": {
         "description": "{Mummification}\r\nCan Upgrade skeletons, skeleton warriors, walking dead and zombies into mummies.",
         "name": "Mummification",
