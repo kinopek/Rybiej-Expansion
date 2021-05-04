@@ -1,19 +1,23 @@
 {
 	"author": "Rybiej",
 	"contact": "paladyn.franek@gmail.com",
-	"description": "Adds one minor artifact - Efreet`s bracelet (+2 ATK, POW)",
+	"description": "Adds one combo artifact - Efreet Sultan`s Jewelery (fire shield)",
 	"licenseName": "Creative Commons Attribution-ShareAlike",
 	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType": "Artifacts",
-	"name": "Efreet`s bracelet",
+	"name": "Efreet Sultan`s Jewelery",
 	"version": "1.0",
 	"artifacts": [
-		"config/EfreetsBracelet.json"
+		"config/EfreetSultansJewelery.json"
 
 	],
 	"changelog": {
 
 		"1.0": [ "Initial release" ]
-	}
+	},
+	"depends": [
+		"rybiej expansion.artifacts.fire neck",
+		"rybiej expansion.artifacts.efreet bracelet"
+	]
 
 }

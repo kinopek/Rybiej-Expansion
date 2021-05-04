@@ -1,14 +1,19 @@
 {
   "EfreetsBracelet": {
     "bonuses": [
-
       {
-        "subtype": "spell.protectFire",
-        "type": "OPENING_BATTLE_SPELL",
-        "val": 5
-
+        "subtype": "primSkill.attack",
+        "type": "PRIMARY_SKILL",
+        "val": 2,
+        "valueType": "BASE_NUMBER"
+      },
+      {
+        "subtype": "primSkill.spellpower",
+        "type": "PRIMARY_SKILL",
+        "val": 2,
+        "valueType": "BASE_NUMBER"
       }
-     
+
 
     ],
 
@@ -19,7 +24,7 @@
     },
     "slot": "RING",
     "text": {
-      "description": "{Efreet`s bracelet}\r\n\r\nWorn, this bracelet at the beggining of the battle, casts Protection from Fire (Power 5) on every friendly unit",
+      "description": "{Efreet`s bracelet}\r\n\r\nWorn around the neck, this bracelet gives +2 Attack and Power",
       "event": "",
       "name": "Efreet`s bracelet"
     },

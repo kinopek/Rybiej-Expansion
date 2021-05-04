@@ -1,0 +1,31 @@
+{
+  "EfreetSultansJewelery": {
+    "bonuses": [
+
+      {
+        "type": "FIRE_SHIELD",
+
+      }
+
+
+    ],
+    "components": [
+      "EfreetsBracelet",
+      "EfreetsBracelet",
+      "AmuletofInnerFire"
+    ],
+    "class": "MAJOR",
+    "graphics": {
+      "image": "EfreetSultansJewelery",
+      "map": "EfreetSultansJewelery"
+    },
+    "slot": "NECK",
+    "text": {
+      "description": "{Efreet Sultan`s Jewelery}\r\n\r\nWorn around the neck, this amulet gives every friendly unit Fire Shield",
+      "event": "",
+      "name": "Efreet Sultan`s Jewelery"
+    },
+    "type": [ "HERO" ],
+    "value": 0
+  }
+}

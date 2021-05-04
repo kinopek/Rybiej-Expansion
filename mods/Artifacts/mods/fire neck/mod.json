@@ -1,14 +1,14 @@
 {
 	"author": "Rybiej",
 	"contact": "paladyn.franek@gmail.com",
-	"description": "Adds one minor artifact - Efreet`s bracelet (+2 ATK, POW)",
+	"description": "Adds one minor artifact - Amulet of Inner Fire Protection from Fire (Power 5)",
 	"licenseName": "Creative Commons Attribution-ShareAlike",
 	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType": "Artifacts",
-	"name": "Efreet`s bracelet",
+	"name": "Amulet of Inner Fire",
 	"version": "1.0",
 	"artifacts": [
-		"config/EfreetsBracelet.json"
+		"config/AmuletofInnerFire.json"
 
 	],
 	"changelog": {
