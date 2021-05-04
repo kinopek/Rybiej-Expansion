@@ -1,0 +1,29 @@
+{
+  "EfreetsBracelet": {
+    "bonuses": [
+
+      {
+        "subtype": "spell.protectFire",
+        "type": "OPENING_BATTLE_SPELL",
+        "val": 5
+
+      }
+     
+
+    ],
+
+    "class": "MINOR",
+    "graphics": {
+      "image": "EfreetsBracelet",
+      "map": "EfreetsBracelet"
+    },
+    "slot": "RING",
+    "text": {
+      "description": "{Efreet`s bracelet}\r\n\r\nWorn, this bracelet at the beggining of the battle, casts Protection from Fire (Power 5) on every friendly unit",
+      "event": "",
+      "name": "Efreet`s bracelet"
+    },
+    "type": [ "HERO" ],
+    "value": 4000
+  }
+}

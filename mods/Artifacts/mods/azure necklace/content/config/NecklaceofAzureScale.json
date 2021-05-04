@@ -2,14 +2,15 @@
   "NecklaceofAzureScale": {
     "bonuses": [
       {
-        "type": "FEAR",
-
+        "type": "FEARLESS"
       },
       {
-        "type": "FEARLESS"
+        "subtype": "primSkill.defence",
+        "type": "PRIMARY_SKILL",
+        "val": 5,
+        "valueType": "BASE_NUMBER"
       }
-
-    ],
+      ],
 
     "class": "RELIC",
     "graphics": {
@@ -18,11 +19,11 @@
     },
     "slot": "NECK",
     "text": {
-      "description": "{Necklace of Azure Scale}\r\n\r\nThis necklace induces fear in the enemy army and makes every friendly fearless.",
+      "description": "{Necklace of Azure Scale}\r\n\r\n Worn around the Neck, this necklace renders your units immune to Fear and gives +5 Defense.",
       "event": "",
       "name": "Necklace of Azure Scale"
     },
     "type": [ "HERO" ],
-    "value": 2000
+    "value": 10000
   }
 }

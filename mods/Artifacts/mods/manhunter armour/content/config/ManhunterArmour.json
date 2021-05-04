@@ -1,0 +1,34 @@
+{
+  "ManhunterArmour": {
+    "bonuses": [
+
+      {
+        "subtype": "primSkill.defence",
+        "type": "PRIMARY_SKILL",
+        "val": 3,
+        "valueType": "BASE_NUMBER"
+      },
+      {
+        "subtype": "primSkill.knowledge",
+        "type": "PRIMARY_SKILL",
+        "val": 3,
+        "valueType": "BASE_NUMBER"
+      }
+      
+    ],
+
+    "class": "MAJOR",
+    "graphics": {
+      "image": "ManhunterArmour",
+      "map": "ManhunterArmour"
+    },
+    "slot": "TORSO",
+    "text": {
+      "description": "{Manhunter`s Armour}\r\n\r\nThis armour gives his owner +3 defence and knowledge.",
+      "event": "",
+      "name": "Manhunter`s Armour"
+    },
+    "type": [ "HERO" ],
+    "value": 6000
+  }
+}

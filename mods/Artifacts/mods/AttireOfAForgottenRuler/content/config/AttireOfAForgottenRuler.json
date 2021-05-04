@@ -1,0 +1,29 @@
+{
+  "AttireOfAForgottenRuler": {
+    "bonuses": [
+      {
+        "type": "FEAR"
+      }
+
+    ],
+    "components": [
+      "ManhunterArmour",
+      "NecklaceofAzureScale",
+      "RingOfTheNomadPrince",
+      "NagasScimitar"
+    ],
+    "class": "RELIC",
+    "graphics": {
+      "image": "AttireOfAForgottenRuler",
+      "map": "AttireOfAForgottenRuler"
+    },
+    "slot": "NECK",
+    "text": {
+      "description": "{Attire of a Forgotten Ruler}\r\n\r\nThis artifact induces fear in the enemy army and gives all the effects of it`s components.",
+      "event": "",
+      "name": "Attire of a Forgotten Ruler"
+    },
+    "type": [ "HERO" ],
+    "value": 0
+  }
+}

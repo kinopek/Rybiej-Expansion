@@ -22,7 +22,7 @@
       "image": "RingOfTheNomadPrince",
       "map": "RingOfTheNomadPrince"
     },
-    "slot": "RIGHT_RING",
+    "slot": "RING",
     "text": {
       "description": "{Ring of the Nomad Prince}\r\n\r\nThis ring increases your Attack and Power skill by +1.",
       "event": "",

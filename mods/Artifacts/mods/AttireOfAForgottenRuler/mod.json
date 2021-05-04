@@ -1,0 +1,27 @@
+{
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"description": "Adds one combo artifact - Attire of a Forgotten Ruler (inducing fear)",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType": "Artifacts",
+	"name": "Attire of a Forgotten Ruler",
+	"version": "1.0",
+	"artifacts": [
+		"config/AttireOfAForgottenRuler.json"
+
+	],
+	"changelog": {
+
+		"1.0": [ "Initial release" ]
+	},
+	"depends": [
+
+		"rybiej expansion.artifacts.manhunter armour",
+		"rybiej expansion.artifacts.nomad ring",
+		"rybiej expansion.artifacts.naga sword",
+		"rybiej expansion.artifacts.azure necklace"
+
+	]
+
+}

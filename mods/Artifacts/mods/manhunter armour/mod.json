@@ -1,0 +1,19 @@
+{
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"description": "Adds one major artifact - Manhunter`s Armour (+3KNOW,+3DEF)",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType": "Artifacts",
+	"name": "Manhunter`s Armour",
+	"version": "1.0",
+	"artifacts": [
+		"config/ManhunterArmour.json"
+
+	],
+	"changelog": {
+
+		"1.0": [ "Initial release" ]
+	}
+
+}

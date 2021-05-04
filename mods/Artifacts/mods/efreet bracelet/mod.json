@@ -1,0 +1,19 @@
+{
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"description": "Adds one minor artifact - Efreet`s bracelet Protection from Fire (Power 5)",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType": "Artifacts",
+	"name": "Efreet`s bracelet",
+	"version": "1.0",
+	"artifacts": [
+		"config/EfreetsBracelet.json"
+
+	],
+	"changelog": {
+
+		"1.0": [ "Initial release" ]
+	}
+
+}
