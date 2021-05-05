@@ -1,5 +1,5 @@
 {
-  "AttireOfAForgottenRuler": {
+  "attireOfAForgottenRuler": {
     "bonuses": [
       {
         "type": "FEAR"
@@ -7,10 +7,10 @@
 
     ],
     "components": [
-      "ManhunterArmour",
-      "NecklaceofAzureScale",
-      "RingOfTheNomadPrince",
-      "NagasScimitar"
+      "manhunterArmour",
+      "necklaceofAzureScale",
+      "ringOfTheNomadPrince",
+      "nagasScimitar"
     ],
     "class": "RELIC",
     "graphics": {

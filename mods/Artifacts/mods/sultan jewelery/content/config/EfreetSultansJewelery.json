@@ -1,5 +1,5 @@
 {
-  "EfreetSultansJewelery": {
+  "efreetSultansJewelery": {
     "bonuses": [
 
       {
@@ -10,9 +10,9 @@
 
     ],
     "components": [
-      "EfreetsBracelet",
-      "EfreetsBracelet",
-      "AmuletofInnerFire"
+      "efreetsBracelet",
+      "efreetsBracelet",
+      "amuletofInnerFire"
     ],
     "class": "MAJOR",
     "graphics": {
