@@ -6,7 +6,7 @@
 	"version" : "1.0",
 	"modType" : "Heroes",
 	"depends": [
-		"rybiej expansion.heat"
+		"rybiej expansion.spells.heat"
 	],
 	"heroes" :
 	[

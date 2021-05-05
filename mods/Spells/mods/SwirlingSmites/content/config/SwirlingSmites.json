@@ -1,0 +1,80 @@
+{
+	"SwirlingSmites": {
+		"type": "combat",
+		"name": "Swirling Smites",
+		"school": {
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 2,
+		"gainChance": {
+			"inferno": 4
+		},
+		"animation": {
+			"affect": [ "C04SPA0" ]
+		},
+		"flags": {
+			"positive": true
+
+		},
+		"targetCondition": {
+			"noneOf": {
+				"bonus.SIEGE_WEAPON": "absolute"
+			}
+		},
+		"sounds": {
+			"cast": "PRECISON"
+		},
+		"graphics": {
+			"iconBook": "smitesBook.png",
+			"iconScroll": "smitesScroll.png",
+			"iconScenarioBonus": "smitesBonus.png",
+			"iconEffect": "smitesEffect.png"
+		},
+
+		"levels": {
+			"base": {
+				"effects": {
+					"blocksRetaliation": {
+						"type": "BLOCKS_RETALIATION",
+						"duration": "N_TURNS"
+
+					}
+				
+				},
+
+				"power": 10,
+				"aiValue": 20,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				}
+			},
+			"none": {
+				"description": "{Swirling Smites}\n\nGives ability to resist enemy retaliation to a targeted friendly unit.\n",
+				"cost": 30
+			},
+			"basic": {
+				"description": "{Basic Swirling Smites}\n\nGives ability to resist enemy retaliation to a targeted friendly unit.\n",
+
+				"cost": 25
+			},
+			"advanced": {
+				"description": "{Advanced Swirling Smites}\n\nGives ability to resist enemy retaliation to a targeted friendly unit.\n",
+
+				"cost": 20
+			},
+			"expert": {
+				"description": "{Expert Swirling Smites}\n\nGives ability to resist enemy retaliation to all friendly units.\n",
+
+				"cost": 20,
+				"range": "X"
+			}
+		}
+	}
+}

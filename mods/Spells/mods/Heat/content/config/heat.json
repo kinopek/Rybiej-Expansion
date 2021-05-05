@@ -30,9 +30,7 @@
 		},
 
 		"counters": {
-			"spell.haste": true,
-			//"spell.frostRing": true,
-			//"spell.iceBolt": true
+			"spell.haste": true
 		},
 
 		"flags": {

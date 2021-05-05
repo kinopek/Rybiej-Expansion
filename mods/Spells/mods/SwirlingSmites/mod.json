@@ -1,0 +1,14 @@
+{
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"description": "Adds one fire spell - Swirling Smites. Gives no enemy retaliation effect",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType": "Spells",
+	"name": "Swirling Smites spell",
+	"version": "1.0",
+	"spells": [
+		"config/SwirlingSmites.json"
+	]
+
+}
