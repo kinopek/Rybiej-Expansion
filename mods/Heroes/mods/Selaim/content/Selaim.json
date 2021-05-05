@@ -16,8 +16,8 @@
     },
 
     "images": {
-      "specialtySmall": "specSmall",
-      "specialtyLarge": "spec",
+      "specialtySmall": "retalSmall",
+      "specialtyLarge": "retal",
       "large": "Selaim",
       "small": "SelaimSmall"
     },

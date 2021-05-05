@@ -17,8 +17,8 @@
     },
 
     "images": {
-      "specialtySmall": "specSmall",
-      "specialtyLarge": "spec",
+      "specialtySmall": "specHeatSmall",
+      "specialtyLarge": "specHeat",
       "large": "Nahraim",
       "small": "NahraimSmall"
     },

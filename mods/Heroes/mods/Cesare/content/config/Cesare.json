@@ -40,8 +40,8 @@
     "images": {
       "large": "Cesare-b.png",
       "small": "Cesare-s.png",
-      "specialtyLarge": "slarge.png",
-      "specialtySmall": "ssmall.png"
+      "specialtyLarge": "hypnoBig.png",
+      "specialtySmall": "hypnoSmall.png"
     },
 
 
