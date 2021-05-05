@@ -71,10 +71,10 @@
 			"cast": "FROSTING"
 		},
 		"graphics": {
-			"iconBook": "iconbook.png",
-			"iconScroll": "iconscroll.png",
-			"iconScenarioBonus": "iconbonus.png",
-			"iconEffect": "iconeffect.png"
+			"iconBook": "heatBook.png",
+			"iconScroll": "heatScroll.png",
+			"iconScenarioBonus": "heatBonus.png",
+			"iconEffect": "heatEffect.png"
 		},
 
 		"levels": {
@@ -107,8 +107,7 @@
 					"stacksSpeed": {
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
-						//						"valueType": "ADDITIVE_VALUE",
-						//"valueType": "BASE_NUMBER",
+						
 						"val": 0,
 						"duration": "N_TURNS"
 					}
@@ -133,11 +132,7 @@
 						"val": -2,
 						"duration": "N_TURNS"
 					},
-					"stacksSpeed": {
-						//"addInfo": 0,
-						//"type": "STACKS_SPEED",
-						//"val": -2,
-						//"duration": "N_TURNS",
+					
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
 						"val": -25,
@@ -202,7 +197,6 @@
 					}
 				}
 			}
-		}
+		
 	}
-
 }

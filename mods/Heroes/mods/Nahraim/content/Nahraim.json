@@ -1,10 +1,9 @@
 {
-  "nahraim" :
-  {
-    "class" : "wizard",
-    "female" : false,
-    "special" : false,
-	"spellbook": ["heat"],
+  "nahraim": {
+    "class": "wizard",
+    "female": false,
+    "special": false,
+    "spellbook": [ "heat" ],
     "texts": {
       "name": "Nahraim",
       "biography": "Although coming from the nomad nobility, Nahraim was never interested in ruling his tribe. Instead, he carefully studied magic of his people under the supervision of the nomad elders. After learning everything they had to offer, Nahraim has departured to expand his knowledge even more.",
@@ -23,17 +22,16 @@
       "small": "NahraimSmall"
     },
 
-    "army" :
-    [
+    "army": [
       {
-        "creature" : "gremlin",
-        "max" : 40,
-        "min" : 30
+        "creature": "gremlin",
+        "max": 40,
+        "min": 30
       },
       {
-        "creature" : "nomad",
-        "max" : 5,
-        "min" : 4
+        "creature": "nomad",
+        "max": 5,
+        "min": 4
       },
       {
         "creature": "stoneGargoyle",
@@ -42,35 +40,26 @@
       }
     ],
 
-    "skills" :
-    [
+    "skills": [
       {
-        "level" : "basic",
-        "skill" : "wisdom"
+        "level": "basic",
+        "skill": "wisdom"
       },
-	  {
-        "level" : "basic",
-        "skill" : "fireMagic"
+      {
+        "level": "basic",
+        "skill": "fireMagic"
       }
     ],
-      
+
     "specialty": {
       "bonuses": {
         "heat": {
           "subtype": "spell.heat",
           "type": "SPECIAL_PECULIAR_ENCHANT",
           "addInfo": 0
-        },
-        //"duration": {
-        //   "type": "SPELL_DURATION",
-        //  "subtype": "spell.heat",
-        //  "addInfo": 1
+        }
 
-        // }
-      //  "damage": {
-     //     "type": "SPECIFIC_SPELL_DAMAGE",
-     //     "subtype": "spell.heat",
-      //    "addInfo": 100
-      //  }
       }
+    }
+  }
 }
