@@ -107,7 +107,7 @@
 					"stacksSpeed": {
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
-						
+
 						"val": 0,
 						"duration": "N_TURNS"
 					}
@@ -132,7 +132,7 @@
 						"val": -2,
 						"duration": "N_TURNS"
 					},
-					
+					"stacksSpeed": {
 						"addInfo": 0,
 						"type": "STACKS_SPEED",
 						"val": -25,
@@ -197,6 +197,6 @@
 					}
 				}
 			}
-		
+		}
 	}
 }
