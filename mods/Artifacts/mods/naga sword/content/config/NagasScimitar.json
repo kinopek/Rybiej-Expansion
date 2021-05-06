@@ -20,7 +20,7 @@
     "class": "MINOR",
     "graphics": {
       "image": "NagasScimitar",
-      "map": "NagasScimitar"
+      "map": "NagasScimitarMap"
     },
     "slot": "RIGHT_HAND",
     "text": {

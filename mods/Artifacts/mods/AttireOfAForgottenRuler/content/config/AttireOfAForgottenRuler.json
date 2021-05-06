@@ -15,7 +15,7 @@
     "class": "RELIC",
     "graphics": {
       "image": "AttireOfAForgottenRuler",
-      "map": "AttireOfAForgottenRuler"
+      "map": "AttireForgottenMap"
     },
     "slot": "NECK",
     "text": {

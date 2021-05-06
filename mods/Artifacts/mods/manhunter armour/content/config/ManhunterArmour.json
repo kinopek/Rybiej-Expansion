@@ -20,7 +20,7 @@
     "class": "MAJOR",
     "graphics": {
       "image": "ManhunterArmour",
-      "map": "ManhunterArmour"
+      "map": "ManhunterArmourMap.def"
     },
     "slot": "TORSO",
     "text": {

@@ -15,7 +15,7 @@
     "class": "RELIC",
     "graphics": {
       "image": "NecklaceofAzureScale",
-      "map": "NecklaceofAzureScale"
+      "map": "AzureNecklaceMap"
     },
     "slot": "NECK",
     "text": {

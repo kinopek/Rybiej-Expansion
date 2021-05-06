@@ -17,7 +17,7 @@
     "class": "MAJOR",
     "graphics": {
       "image": "EfreetSultansJewelery",
-      "map": "EfreetSultansJewelery"
+      "map": "SultanJeweleryMap.def"
     },
     "slot": "NECK",
     "text": {

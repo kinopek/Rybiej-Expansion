@@ -20,7 +20,7 @@
     "class": "TREASURE",
     "graphics": {
       "image": "RingOfTheNomadPrince",
-      "map": "RingOfTheNomadPrince"
+      "map": "NomadRingMap"
     },
     "slot": "RING",
     "text": {
