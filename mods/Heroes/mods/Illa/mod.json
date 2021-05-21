@@ -1,0 +1,12 @@
+{
+	"name": "Illa the quicksand knights",
+	"description": "A mod that adds a new castle hero Illa (casts Quicksand)",
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"version": "1.0",
+	"modType": "Heroes",
+	"heroes": [
+		"Illa.json"
+	]
+
+}

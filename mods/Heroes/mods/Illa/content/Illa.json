@@ -1,0 +1,59 @@
+{
+  "illa": {
+    "class": "knight",
+    "female": true,
+    "special": false,
+    "texts": {
+      "name": "Illa",
+      "biography": "Illa has travelled the Antagarich, studying the nature and it`s impact on warfare. Ever since she became a warrior herself, her abilities to use the terrain to her advantage helped her to fight, and eventually command.",
+
+      "specialty": {
+        "description": "{Quicksand}\r\n\r\nCasts quicksand at the beggining of the battle.",
+        "tooltip": "Casts quicksand at the beggining of the battle",
+        "name": "Quicksand"
+      }
+    },
+
+    "images": {
+      "specialtySmall": "sandSmall",
+      "specialtyLarge": "sand",
+      "large": "Illa",
+      "small": "IllaSmall"
+    },
+
+    "army": [
+      {
+        "creature": "pikeman",
+        "max": 40,
+        "min": 30
+      },
+      {
+        "creature": "nomad",
+        "max": 5,
+        "min": 4
+      },
+      {
+        "creature": "archer",
+        "max": 7,
+        "min": 5
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "advanced",
+        "skill": "tactics"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "quicksand": {
+          "type": "OPENING_BATTLE_SPELL",
+          "val": 1,
+          "subtype": 10
+        }
+      }
+    }
+  }
+}
