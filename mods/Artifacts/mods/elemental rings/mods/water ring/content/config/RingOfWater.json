@@ -1,0 +1,28 @@
+{
+  "ringOfWater": {
+    "bonuses": [
+
+      {
+        "subtype": 3,   //1 is air 8 is earth
+        "type": "MAGIC_SCHOOL_SKILL",
+        "val": 3
+      }
+    
+
+    ],
+
+    "class": "MAJOR",
+    "graphics": {
+      "image": "ringOfWater",
+      "map": "ringOfWaterMap"
+    },
+    "slot": "RING",
+    "text": {
+      "description": "{Ring of Water}\r\n\r\nThis ring while worn makes it`s bearer cast Water magic spell on expert level",
+      "event": "",
+      "name": "Ring of Water"
+    },
+    "type": [ "HERO" ],
+    "value": 10000
+  }
+}

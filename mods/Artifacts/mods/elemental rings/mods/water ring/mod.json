@@ -1,0 +1,19 @@
+{
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"description": "Adds one major artifact - Ring of Water (expert Water magic)",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType": "Artifacts",
+	"name": "Ring of Water",
+	"version": "1.0",
+	"artifacts": [
+		"config/RingOfWater.json"
+
+	],
+	"changelog": {
+
+		"1.0": [ "Initial release" ]
+	}
+
+}

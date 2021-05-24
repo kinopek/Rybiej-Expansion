@@ -1,0 +1,28 @@
+{
+  "ringOfFire": {
+    "bonuses": [
+
+      {
+        "subtype": 2,   //1 is air
+        "type": "MAGIC_SCHOOL_SKILL",
+        "val": 3
+      }
+    
+
+    ],
+
+    "class": "MAJOR",
+    "graphics": {
+      "image": "ringOfFire",
+      "map": "ringOfFireMap"
+    },
+    "slot": "RING",
+    "text": {
+      "description": "{Ring of Fire}\r\n\r\nThis ring while worn makes it`s bearer cast fire magic spell on expert level",
+      "event": "",
+      "name": "Ring of Fire"
+    },
+    "type": [ "HERO" ],
+    "value": 10000
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ringOfAir": {
+    "bonuses": [
+
+      {
+        "subtype": 1,   //1 is air
+        "type": "MAGIC_SCHOOL_SKILL",
+        "val": 3
+      }
+    
+
+    ],
+
+    "class": "MAJOR",
+    "graphics": {
+      "image": "ringOfAir",
+      "map": "ringOfAirMap"
+    },
+    "slot": "RING",
+    "text": {
+      "description": "{Ring of Air}\r\n\r\nThis ring while worn makes it`s bearer cast Air magic spell on expert level",
+      "event": "",
+      "name": "Ring of Air"
+    },
+    "type": [ "HERO" ],
+    "value": 10000
+  }
+}

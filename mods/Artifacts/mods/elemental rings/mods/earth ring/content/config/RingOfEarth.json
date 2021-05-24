@@ -1,0 +1,28 @@
+{
+  "ringOfEarth": {
+    "bonuses": [
+
+      {
+        "subtype": 8,   //1 is air 2 is fire
+        "type": "MAGIC_SCHOOL_SKILL",
+        "val": 8
+      }
+    
+
+    ],
+
+    "class": "MAJOR",
+    "graphics": {
+      "image": "ringOfEarth",
+      "map": "ringOfEarthMap"
+    },
+    "slot": "RING",
+    "text": {
+      "description": "{Ring of Earth}\r\n\r\nThis ring while worn makes it`s bearer cast Earth magic spell on expert level",
+      "event": "",
+      "name": "Ring of Earth"
+    },
+    "type": [ "HERO" ],
+    "value": 10000
+  }
+}
