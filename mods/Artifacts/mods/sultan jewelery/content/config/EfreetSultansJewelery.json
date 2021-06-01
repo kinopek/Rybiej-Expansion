@@ -11,7 +11,7 @@
     ],
     "components": [
       "efreetsBracelet",
-      "efreetsBracelet",
+      //"efreetsBracelet",if there are two, the game crashes
       "amuletofInnerFire"
     ],
     "class": "MAJOR",
