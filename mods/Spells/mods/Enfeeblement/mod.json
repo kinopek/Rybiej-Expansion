@@ -1,0 +1,14 @@
+{
+	"author": "Rybiej",
+	"contact": "paladyn.franek@gmail.com",
+	"description": "Adds one fire spell - Enfeeblement. Ereases positive spells from a unit / enemy army(expert)",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType": "Spells",
+	"name": "Enfeeblement spell",
+	"version": "1.0",
+	"spells": [
+		"config/Enfeeblement.json"
+	]
+
+}

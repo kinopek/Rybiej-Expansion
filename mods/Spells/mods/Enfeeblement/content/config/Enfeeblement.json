@@ -1,0 +1,69 @@
+{
+	"enfeeblement": {
+		"name": "Enfeeblement",
+
+		"type": "combat",
+		"school": {
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 3,
+		"defaultGainChance": 4,
+		"targetType": "CREATURE",
+		"animation": {
+			"affect": [ "C03SPW" ] //C03SPW0
+		},
+		"graphics": {
+			"iconBook": "enfeeblementBook.png",
+			"iconScroll": "enfeeblementScroll.png",
+			"iconScenarioBonus": "enfeeblementBonus.png"
+		},
+		"sounds": {
+			"cast": "SORROW"
+		},
+		"levels": {
+			"base": {
+				"power": 10,
+				"aiValue": 20,
+
+				"targetModifier": { "smart": true },
+				"battleEffects": {
+					"cancelPositives": {
+						"type": "core:dispel",
+						"optional": true,
+						"dispelNegative": false,
+						"dispelNeutral": false,
+						"dispelPositive": true
+					}
+				},
+				"range": "0"
+			},
+			"none": {
+				"cost": 12,
+				"description": "{Enfeeblement}\n\nDispells all the positive effects from a targeted enemy unit.\n"
+
+			},
+			"basic": {
+				"cost": 11,
+				"description": "{Basic Enfeeblement}\n\nDispells all the positive effects from a targeted enemy unit.\n"
+
+			},
+			"advanced": {
+				"cost": 10,
+				"description": "{Advanced Enfeeblement}\n\nDispells all the positive effects from a targeted enemy unit.\n"
+
+			},
+			"expert": {
+				"range": "X",
+				"cost": 10,
+				"description": "{Expert Enfeeblement}\n\nDispells all the positive effects from the enemy army.\n"
+
+			}
+		},
+		"flags": {
+			"negative": true
+		}
+	}
+}
