@@ -13,7 +13,7 @@
 		"defaultGainChance": 4,
 		"targetType": "CREATURE",
 		"animation": {
-			"affect": [ "C03SPW" ] //C03SPW0
+			"affect": [ "C05SPW" ] //C05SPW0
 		},
 		"graphics": {
 			"iconBook": "enfeeblementBook.png",

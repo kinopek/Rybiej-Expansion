@@ -33,7 +33,7 @@
 		"graphics": {
 			"iconBook": "smitesBook.png",
 			"iconScroll": "smitesScroll.png",
-			"iconScenarioBonus": "smitesBonus.png",
+		//	"iconScenarioBonus": "smitesBonus.png",
 			"iconEffect": "smitesEffect.png"
 		},
 
